@@ -1,0 +1,49 @@
+.sun{
+  background-color: orange;
+  width:40px;
+  height: 40px;
+  border-radius: 20px;
+  left: 46%;
+  top: 4%;
+  color: orange;
+  z-index: 4;
+  position: relative;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(252, 249, 249);
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+#location{
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  background-color: greenyellow;
+  outline: none;
+}
+
+#get-weather{
+  padding: 4px;
+  border:none;
+  border-radius: 4px;
+  background-color: orangered;
+  font-weight: bold;
+  color: rgb(235, 235, 23);
+  cursor: pointer;
+}
+
+#get-weather:active{
+  opacity: .9;
+}
